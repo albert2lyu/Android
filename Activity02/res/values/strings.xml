@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Activity02</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="txt1">Welcome,lanbots! This is FirstActivity!</string>
+	<string name="txt2">Welcome,lanbots! This is SecondActivity!</string>
+	<string name="firstBtn">跳转到SecondActivity</string>
+	<string name="secondBtn">跳转到FirstActivity</string>
+</resources>
