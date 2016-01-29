@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Activity01</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">退出</string>
+    <string name="action_theme">测试</string>
+    <string name="txt1">Welcome,lanbots! This is MainActivity!</string>
+    <string name="txt2">Welcome,lanbots! This is SecondActivity!</string>
+	<string name="firstBtn">跳转到SecondActivity</string>
+	<string name="secondBtn">跳转到Thridctivity</string>
+	<string name="thirdBtn">跳转到发送短信Activity</string>
+	<string name="fourBtn">跳转到打电话Activity</string>
+	<string name="txt3">Welcome,lanbots! This is ThirdActivity!</string>
+</resources>
