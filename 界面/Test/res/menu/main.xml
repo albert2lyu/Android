@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.lanbots.test.MainActivity" >
+
+ 
+        
+        <item
+            android:id="@+id/action_group_chat"
+            android:icon="@drawable/menu_group_chat_icon"
+            android:title="@string/menu_group_chat"/>
+        <item
+            android:id="@+id/action_add_friend"
+            android:icon="@drawable/menu_add_icon"
+            android:title="@string/menu_addfriend"/>
+        <item
+            android:id="@+id/action_scan"
+            android:icon="@drawable/men_scan_icon"
+            android:title="@string/menu_scan"/>
+        <item
+            android:id="@+id/action_feedback"
+            android:icon="@drawable/menu_feedback_icon"
+            android:title="@string/menu_feedback"/>
+        <item
+            android:id="@+id/action_settings"
+            android:icon="@drawable/menu_exit_icon"
+            android:title="@string/action_settings"/>
+
+
+</menu>
