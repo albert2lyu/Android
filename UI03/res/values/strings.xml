@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="login_register_link">没有帐号？ </string>
+    <string name="action_settings">退出</string>
+
+    <drawable name="clr_normal">#83cee3</drawable>
+    <drawable name="clr_pressed">#a44100</drawable>
+
+</resources>
