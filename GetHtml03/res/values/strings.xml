@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GetHtml03</string>
+     <string name="hello_world">请输入网址(例如：www.baidu.com)：</string>
+    <string name="action_settings">退出</string>
+    <string name="search">搜索</string>
+	<string name="saveHtml">保存HTML</string>
+	<string name="readHtml">查看HTML</string>
+
+</resources>
