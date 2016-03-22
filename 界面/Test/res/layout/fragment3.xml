@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_login"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dip"
+        android:background="@drawable/background_login_div_bg"
+        android:padding="15dip" >
+
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="35dip"
+            android:layout_marginLeft="12dip"
+            android:layout_marginTop="10dip"
+            android:gravity="bottom"
+            android:text="帐号:"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edt1"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_below="@id/txt1"
+            android:layout_marginLeft="12dip"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/background_login_edt" />
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="35dip"
+            android:layout_below="@id/edt1"
+            android:layout_marginLeft="12dip"
+            android:layout_marginTop="10dip"
+            android:gravity="bottom"
+            android:text="密码:"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edt2"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_below="@id/txt2"
+            android:layout_marginLeft="12dip"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/background_login_edt"
+            android:maxLines="200"
+            android:password="true"
+            android:scrollHorizontally="true" />
+
+        <CheckBox
+            android:id="@+id/rmpsd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edt2"
+            android:layout_marginLeft="12dip"
+            android:layout_marginTop="10dip"
+            android:text="记住密码"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="80dip"
+            android:layout_height="40dip"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/edt2"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/login_button_selector"
+            android:gravity="center"
+            android:text="登录"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/register_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="@string/login_register_link"
+            android:textColor="#888"
+            android:textColorLink="#FF0066CC" />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="50dip"
+            android:layout_height="25dip"
+           android:layout_toRightOf="@id/register_link"
+            android:background="@drawable/login_button_selector"
+            android:text="注册" />
+    </RelativeLayout>
+
+</LinearLayout>
