@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SaveFile01</string>
+    <string name="hello_world">文件名称</string>
+    <string name="action_settings">退出</string>
+	<string name="textContent">文件内容</string>
+	<string name="save">保存</string>
+	<string name="out">读取</string>
+    
+    
+</resources>
