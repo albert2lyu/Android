@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">XML01</string>
+    <string name="hello_world">先抓取天气XML信息，再解析XML</string>
+    <string name="action_settings">退出</string>
+    <string name="btn_get">抓取XML</string>
+    <string name="btn_parser">解析XML</string>
+
+</resources>
